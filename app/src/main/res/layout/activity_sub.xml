@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/subbackground"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="180px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+
+            android:textAlignment="center"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="110px"
+            android:layout_marginRight="110px"
+            android:layout_marginBottom="50px"
+            android:background="@drawable/booktext"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="380px"
+            android:background="@drawable/pola"
+            android:layout_marginBottom="100px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"/>
+
+
+        <android.widget.Button
+            android:id="@+id/make"
+
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="@color/pointblue"
+            android:layout_marginRight="40px"
+            android:layout_marginLeft="40px"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/white"
+            android:text="Start"
+            android:textSize="25px"
+            android:fontFamily="@font/sunflower_bold"
+            android:onClick="make"
+
+            />
+
+        <android.widget.Button
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="@color/mainblue"
+            android:layout_marginRight="40px"
+            android:layout_marginLeft="40px"
+            android:textColor="@color/white"
+            android:fontFamily="@font/sunflower_bold"
+            android:text="Image"
+            android:textSize="25px"
+            android:onClick="imgview" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="30px"
+            android:fontFamily="@font/sunflower_bold"
+            android:text="Sticker"
+            android:textColor="@color/black"
+            android:textSize="30px"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/and"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/and_sticker"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="sticker"/>
+
+                <ImageButton
+                    android:id="@+id/arrow"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/arrows_sticker"
+                    android:layout_marginRight="30px"
+                    android:onClick="sticker"/>
+
+                <ImageButton
+                    android:id="@+id/bar"
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bar_sticker"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:onClick="sticker"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/barcode"
+            android:layout_width="50px"
+            android:layout_height="200px"
+            android:background="@drawable/barcode_sticker"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="30px"
+            android:onClick="sticker"/>
+
+        <ImageButton
+            android:id="@+id/clip"
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:layout_marginRight="30px"
+            android:background="@drawable/clip_sticker"
+            android:onClick="sticker"
+            />
+
+        <ImageButton
+            android:id="@+id/textcircle"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:background="@drawable/text_circle_sticker"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="30px"
+            android:onClick="sticker" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/oval"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginRight="30px"
+            android:layout_marginBottom="30px"
+            android:background="@drawable/oval_sticker"
+            android:onClick="sticker"/>
+
+        <ImageButton
+            android:id="@+id/roundsquare"
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginRight="30px"
+            android:background="@drawable/round_square_sticker"
+            android:layout_marginBottom="30px"
+            android:onClick="sticker"/>
+
+        <ImageButton
+            android:id="@+id/twinkleline"
+            android:layout_width="50px"
+            android:layout_height="100px"
+            android:background="@drawable/twinkle1_sticker"
+            android:layout_marginBottom="30dp"
+            android:onClick="sticker"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/twinkle"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/twinkle2_sticker"
+                    android:layout_marginRight="30px"
+                    android:layout_marginBottom="30px"
+                    android:onClick="sticker"/>
+
+                <ImageButton
+                    android:id="@+id/heart"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/heart_sticker"
+                    android:layout_marginRight="30px"
+                    android:layout_marginBottom="30px"
+                    android:onClick="sticker"/>
+
+                <ImageButton
+                    android:id="@+id/eyes"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/eyes_sticker"
+                    android:layout_marginRight="30px"
+                    android:layout_marginBottom="30px"
+                    android:onClick="sticker"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/tw"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/tw_sticker"
+                    android:layout_marginRight="30px"
+                    android:layout_marginBottom="30px"
+                    android:onClick="sticker"/>
+
+                <ImageButton
+                    android:id="@+id/flower"
+                    android:layout_width="50px"
+                    android:layout_height="50px"
+                    android:background="@drawable/flower_sticker"
+                    android:layout_marginRight="30px"
+                    android:layout_marginBottom="30px"
+                    android:onClick="sticker"/>
+
+                        <ImageButton
+                            android:id="@+id/circle"
+                            android:layout_width="50px"
+                            android:layout_height="50px"
+                            android:background="@drawable/circle_sticker"
+                            android:layout_marginRight="30px"
+                            android:layout_marginBottom="30px"
+                            android:onClick="sticker"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
