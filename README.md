@@ -2,6 +2,9 @@
 
 <img src="https://img.shields.io/badge/macOS-000000?style=flat&logo=macos&logoColor=white"/>   <img src="https://img.shields.io/badge/AndroidStudio -3DDC84?style=flat&logo=androidstudio&logoColor=white"/> 
 
+###### Android Studio Chipmunk | 2021.2.1 Patch 2      
+###### Emulator : Galaxy Nexus 4 / Lolipop (API Level 22)
+
 ### ❃ 개인프로젝트 : Photo-Book &nbsp; ![phone](https://github.com/wlgus5704/Mobile-programming_Photo-Book/assets/101785677/a798c43a-5d83-4a0c-8a05-21d17d1f9113)
 
 #### 사진을 폴라로이드 형태로 만들어 꾸미는 앱
@@ -95,13 +98,22 @@
 
 ### 이미지 페이지
 ###### 만든 결과물을 보여주는 페이지 (직전에 만든 결과물만 반영)
-<img width="171" alt="image" src="https://github.com/wlgus5704/Mobile-programming_Photo-Book/assets/101785677/07b49883-95fd-4c47-8edb-4556435d992f">
+###### <만든 이미지 없을 시> 
+<img width="223" alt="스크린샷 2023-06-09 오전 4 04 22" src="https://github.com/wlgus5704/Mobile-programming_Photo-Book/assets/101785677/41276e6a-568d-45a7-b74e-79b43a8d956f">
 
+###### <결과물 만든 후>
+<img width="232" alt="스크린샷 2023-06-09 오전 4 03 45" src="https://github.com/wlgus5704/Mobile-programming_Photo-Book/assets/101785677/5f9a7cbd-7799-4974-ae36-32f05770707f">
 
 # 
-Android Studio Chipmunk | 2021.2.1 Patch 2
-Emulator : Galaxy Nexus 4 / Lolipop (API Level 22)
 
 
-#### Attributes
-- Codes : 
+#### Codes
+- Drawing_Activity (드로잉페이지) 코드참고 
+   - 알림기능 : https://github.com/cgsong0730/android/tree/master/ch5/Notification
+   - 스티커 사이즈 조절 기능 : https://wowon.tistory.com/149
+   - 스티커 이동 기능 : https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tkddlf4209&logNo=220734131855
+- DrawingPaper (그림판 기능) 코드참고 : https://github.com/cgsong0730/android/tree/master/ch6 
+- MainActivity (메인페이지) 애니메이션 코드참고: https://15051015.tistory.com/59
+- Manual (메뉴얼 이미지 페이지)
+- Result (이미지 결과물 페이지)
+- SubActivity (Drawing_Activity or Result로 이동하는 페이지)
