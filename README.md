@@ -46,7 +46,7 @@
 #
 
 ### 메인 페이지
-###### 처음 접속시 보여지는 화면 
+###### 처음 접속시 보여지는 화면 (런치스크린)
 <img width="174" alt="image" src="https://github.com/wlgus5704/Mobile-programming_Photo-Book/assets/101785677/37720306-5149-4765-8f1a-e3f089eeba27">
 
 
